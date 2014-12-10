@@ -10,7 +10,7 @@
     <description>A helper library for unit testing code using the Task-based Asynchronous Pattern (TAP).</description>
     <language>en-US</language>
     <projectUrl>https://github.com/StephenCleary/AsyncUnitTests</projectUrl>
-    <iconUrl>https://github.com/StephenCleary/AsyncUnitTests/raw/master/AsyncExUnitTests.128.png</iconUrl>
+    <iconUrl>https://github.com/StephenCleary/AsyncUnitTests/raw/master/AsyncExUnitTests.32.png</iconUrl>
     <tags>unit-test async await async-await task asynchronous net45 nito</tags>
     <dependencies>
     </dependencies>
@@ -21,6 +21,8 @@
   <files>
     <file src="**\*.cs" target="src" />
 
+    <file src="Nito.AsyncEx.UnitTests.MSFakes\Readme.md" target="" />
+    
     <!-- .NET 4.5 -->
     <file src="Nito.AsyncEx.UnitTests.MSFakes\bin\Release\Nito.AsyncEx.UnitTests.MSFakes.dll" target="lib\net45" />
     <file src="Nito.AsyncEx.UnitTests.MSFakes\bin\Release\Nito.AsyncEx.UnitTests.MSFakes.xml" target="lib\net45" />
