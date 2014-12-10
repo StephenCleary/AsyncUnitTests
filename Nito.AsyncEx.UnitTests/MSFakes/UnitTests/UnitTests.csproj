@@ -58,10 +58,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Nito.AsyncEx.UnitTests.MSFakes\Nito.AsyncEx.UnitTests.MSFakes.csproj">
-      <Project>{4eb8af5d-9094-4f81-b315-df0be0a44bb7}</Project>
-      <Name>Nito.AsyncEx.UnitTests.MSFakes</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Sut\Sut.csproj">
       <Project>{0d7925ef-57f7-4d7f-8c1b-a39451e7728f}</Project>
       <Name>Sut</Name>
