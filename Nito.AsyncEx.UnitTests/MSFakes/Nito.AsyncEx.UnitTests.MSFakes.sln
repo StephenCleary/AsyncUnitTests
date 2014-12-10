@@ -9,6 +9,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\Unit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nito.AsyncEx.UnitTests.MSFakes", "Nito.AsyncEx.UnitTests.MSFakes\Nito.AsyncEx.UnitTests.MSFakes.csproj", "{4EB8AF5D-9094-4F81-B315-DF0BE0A44BB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InstallTests", "InstallTests", "{A6528D95-60C9-4376-814D-7528D5B6DA5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D6970C77-A912-4376-A6FF-15050F2B7B69}"
+	ProjectSection(SolutionItems) = preProject
+		Build.ps1 = Build.ps1
+		Nito.AsyncEx.UnitTests.MSFakes.nuspec = Nito.AsyncEx.UnitTests.MSFakes.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D7925EF-57F7-4D7F-8C1B-A39451E7728F} = {A6528D95-60C9-4376-814D-7528D5B6DA5C}
+		{6806192C-8274-48FD-9805-2581FF249271} = {A6528D95-60C9-4376-814D-7528D5B6DA5C}
 	EndGlobalSection
 EndGlobal

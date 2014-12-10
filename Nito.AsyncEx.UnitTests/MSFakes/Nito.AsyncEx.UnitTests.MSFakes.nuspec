@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Nito.AsyncEx.UnitTests.MSFakes</id>
+    <version>1.0.0</version> <!-- Also change [AssemblyVersion] -->
+    <title>Async Unit Testing Helpers for Microsoft Fakes</title>
+    <authors>Stephen Cleary</authors>
+    <owners>Stephen Cleary</owners>
+    <summary>A helper library for unit testing code using the Task-based Asynchronous Pattern (TAP).</summary>
+    <description>A helper library for unit testing code using the Task-based Asynchronous Pattern (TAP).</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/StephenCleary/AsyncUnitTests</projectUrl>
+    <iconUrl>https://github.com/StephenCleary/AsyncUnitTests/raw/master/AsyncExUnitTests.128.png</iconUrl>
+    <tags>unit-test async await async-await task asynchronous net45 nito</tags>
+    <dependencies>
+    </dependencies>
+    <releaseNotes>
+      Initial release.
+    </releaseNotes>
+  </metadata>
+  <files>
+    <file src="**\*.cs" target="src" />
+
+    <!-- .NET 4.5 -->
+    <file src="Nito.AsyncEx.UnitTests.MSFakes\bin\Release\Nito.AsyncEx.UnitTests.MSFakes.dll" target="lib\net45" />
+    <file src="Nito.AsyncEx.UnitTests.MSFakes\bin\Release\Nito.AsyncEx.UnitTests.MSFakes.xml" target="lib\net45" />
+  </files>
+</package>
