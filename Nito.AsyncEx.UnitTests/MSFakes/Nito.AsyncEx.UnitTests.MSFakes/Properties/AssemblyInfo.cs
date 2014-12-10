@@ -7,4 +7,4 @@
 [assembly: AssemblyProduct("Nito.AsyncEx Unit Testing Library")]
 [assembly: AssemblyCopyright("Copyright © 2014 Stephen Cleary")]
 
-[assembly: AssemblyVersion("1.0.0")]
+[assembly: AssemblyVersion("1.0.1")]
