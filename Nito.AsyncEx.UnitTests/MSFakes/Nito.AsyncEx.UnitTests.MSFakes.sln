@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sut", "Sut\Sut.csproj", "{0D7925EF-57F7-4D7F-8C1B-A39451E7728F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6806192C-8274-48FD-9805-2581FF249271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nito.AsyncEx.UnitTests.MSFakes", "Nito.AsyncEx.UnitTests.MSFakes\Nito.AsyncEx.UnitTests.MSFakes.csproj", "{4EB8AF5D-9094-4F81-B315-DF0BE0A44BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7925EF-57F7-4D7F-8C1B-A39451E7728F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7925EF-57F7-4D7F-8C1B-A39451E7728F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7925EF-57F7-4D7F-8C1B-A39451E7728F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7925EF-57F7-4D7F-8C1B-A39451E7728F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6806192C-8274-48FD-9805-2581FF249271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6806192C-8274-48FD-9805-2581FF249271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6806192C-8274-48FD-9805-2581FF249271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6806192C-8274-48FD-9805-2581FF249271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB8AF5D-9094-4F81-B315-DF0BE0A44BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB8AF5D-9094-4F81-B315-DF0BE0A44BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB8AF5D-9094-4F81-B315-DF0BE0A44BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB8AF5D-9094-4F81-B315-DF0BE0A44BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
