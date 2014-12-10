@@ -21,7 +21,7 @@
   <files>
     <file src="**\*.cs" target="src" />
 
-    <file src="Nito.AsyncEx.UnitTests.MSFakes\Readme.md" target="" />
+    <file src="Nito.AsyncEx.UnitTests.MSFakes\Readme.txt" target="" />
     
     <!-- .NET 4.5 -->
     <file src="Nito.AsyncEx.UnitTests.MSFakes\bin\Release\Nito.AsyncEx.UnitTests.MSFakes.dll" target="lib\net45" />
